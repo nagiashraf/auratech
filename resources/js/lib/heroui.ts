@@ -1,0 +1,83 @@
+import { heroui } from '@heroui/react';
+
+export default heroui({
+  themes: {
+    light: {
+      colors: {
+        background: '#e5e7eb', // or DEFAULT
+        foreground: '#4a5568', // or 50 to 900 DEFAULT
+        primary: {
+          50: '#ffeade',
+          100: '#ffc6b0',
+          200: '#ffa27f',
+          300: '#ff7c4d',
+          400: '#fe581b',
+          500: '#e53e02',
+          600: '#b33000',
+          700: '#812100',
+          800: '#4f1200',
+          900: '#200400',
+          foreground: '#FFFFFF',
+          DEFAULT: '#ff6b35',
+        },
+        secondary: {
+          50: '#e6f2ff',
+          100: '#c1d5f1',
+          200: '#9bb9e3',
+          300: '#759dd7',
+          400: '#4f82ca',
+          500: '#3668b1',
+          600: '#29518a',
+          700: '#1c3a64',
+          800: '#0e233e',
+          900: '#010c1a',
+          foreground: '#FFFFFF',
+          DEFAULT: '#1a365d',
+        },
+        success: {
+          50: '#defff5',
+          100: '#b4fae3',
+          200: '#88f5d1',
+          300: '#5bf1bf',
+          400: '#31edad',
+          500: '#1bd393',
+          600: '#0ea473',
+          700: '#037552',
+          800: '#004730',
+          900: '#00190e',
+          foreground: '#FFFFFF',
+          DEFAULT: '#10b981',
+        },
+        warning: {
+          50: '#fff4dc',
+          100: '#fee2b0',
+          200: '#fbce82',
+          300: '#f8bb52',
+          400: '#f6a723',
+          500: '#dc8e09',
+          600: '#ab6e04',
+          700: '#7b4f01',
+          800: '#4a2f00',
+          900: '#1c0f00',
+          foreground: '#FFFFFF',
+          DEFAULT: '#f59e0b',
+        },
+        danger: {
+          50: '#ffe5e5',
+          100: '#fdb7b8',
+          200: '#f6898a',
+          300: '#f15b5b',
+          400: '#ec2e2d',
+          500: '#d21513',
+          600: '#a40e0e',
+          700: '#760809',
+          800: '#480304',
+          900: '#1e0000',
+          foreground: '#FFFFFF',
+          DEFAULT: '#ef4444',
+        },
+        // info: added in Tailwind @theme app.css
+      },
+    },
+  },
+});
