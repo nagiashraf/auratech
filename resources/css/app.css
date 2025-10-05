@@ -28,6 +28,10 @@
   padding-inline: 1rem;
 }
 
+@utility bg-linear-primary {
+  @apply bg-linear-135 from-primary to-[#f7931e];
+}
+
 @layer base {
   h1 {
     @apply text-[2rem]/[1.25] font-bold;
@@ -42,6 +46,13 @@
   }
 }
 
-#app {
-  @apply h-full;
+body,
+#app,
+[data-overlay-container='true'] {
+  @apply min-h-screen;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply text-primary!;
 }
